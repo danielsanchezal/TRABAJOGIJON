@@ -1,0 +1,107 @@
+img.imagenAst{
+    width: 300px;
+}
+img.imagenLetras{
+    width: 200px;
+    
+}
+img.imagenSanti{
+    width: 300px;
+}
+img.imagenLaboral{
+    width: 500px;
+}
+td{
+    
+    background-color:#D8EBF0;
+    padding: 5px;
+}
+th{
+    background-color:#001c4c;
+    padding: 5px;
+    color:white;
+    
+}
+table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+}
+body{
+   background-color: #D8EBF0;
+}
+h1{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #001c4c;
+    color:white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+/*     linear-gradient(to bottom, #001c4c, white);gradiente */
+}
+*{
+    margin: 0;
+}
+p
+{
+    margin: 10px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: justify;
+}/*#2B4570*/
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #001c4c;
+    color: white;
+    padding-left: px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+ul.indice{
+    padding-left: 50px;
+    background-color: white;
+    border: solid 2px lightblue;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 150px;
+    margin-left: 850px;
+}
+
+h3{
+    color: white;
+    background-color: mediumturquoise;
+    margin-left: 240px;
+    margin-right: 1475px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+img{
+    margin-left: 750px;
+    margin-right: 1000px;
+    border: solid 2px lightblue;
+}
+
+ul.resto{
+    margin-left:400px;
+}
+
+table{
+    margin-left: 240px;
+}
+h3.oviedotitle{
+    margin-right:1675px ;
+    margin-left: 240px;
+}
+img.titulo{
+   
+  background-image: url() 
+}
+
