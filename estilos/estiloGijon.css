@@ -1,3 +1,4 @@
+/*
 img.imagenAst{
     width: 300px;
 }
@@ -10,7 +11,8 @@ img.imagenSanti{
 }
 img.imagenLaboral{
     width: 500px;
-}
+}*/
+
 td{
     
     background-color:#D8EBF0;
@@ -29,13 +31,13 @@ table{
     float: left;
 }
 body{
-   background-color: #D8EBF0;
+   background-color:#D8EBF0 ;
 }
 h1{
     font-size: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #001c4c;
-    color:white;
+    background-color:white;
+    color: white;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
@@ -54,7 +56,7 @@ p
 }/*#2B4570*/
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #001c4c;
+    background-color: #9ab7e7;
     color: white;
     padding-left: px; 
     padding-top: 10px;
@@ -77,16 +79,18 @@ ul.indice{
 
 h3{
     color: white;
-    background-color: mediumturquoise;
+    background-color: #9ab7e7;
     margin-left: 240px;
     margin-right: 1475px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: solid black 1px;
 }
 img{
     margin-left: 750px;
     margin-right: 1000px;
     border: solid 2px lightblue;
+    width: 300px;
 }
 
 ul.resto{
@@ -97,14 +101,48 @@ table{
     margin-left: 240px;
 }
 h3.oviedotitle{
-    margin-right:1675px ;
+    margin-right:1400px ;
     margin-left: 240px;
 }
-img.titulo{
-   
-  background-image: url() 
-}
+
 a:hover{
     color:red;
 }
-
+h1.gijon{
+    background-image: url(/Imagen/images.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover; 
+    padding-top: 70px;
+    padding-bottom: 50px; 
+    border-bottom: solid #9ab7e7 15px;
+}
+h1.laboral{
+    background-image: url(/Imagen/universidad-laboral-gijon1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover; 
+    padding-top: 70px;
+    padding-bottom: 50px; 
+    border-bottom: solid #001c4c 15px;
+}
+img.laboral1{
+    margin:0px;
+    margin-left: 250px;
+    float: left;
+    width: 300px;
+}
+img.laboral2{
+     margin:0px;
+     margin-left: 300px;
+     float: left;
+    width: 250px;
+}
+img.laboral3{
+    margin:0px;
+    float: left;
+    margin-left: 400px; 
+    width: 250px;
+}
