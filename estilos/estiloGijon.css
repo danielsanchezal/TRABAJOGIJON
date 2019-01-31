@@ -1,17 +1,3 @@
-/*
-img.imagenAst{
-    width: 300px;
-}
-img.imagenLetras{
-    width: 200px;
-    
-}
-img.imagenSanti{
-    width: 300px;
-}
-img.imagenLaboral{
-    width: 500px;
-}*/
 
 td{
     
@@ -19,7 +5,7 @@ td{
     padding: 5px;
 }
 th{
-    background-color:#001c4c;
+    background-color:#9ab7e7;
     padding: 5px;
     color:white;
     
@@ -32,6 +18,8 @@ table{
 }
 body{
    background-color:#D8EBF0 ;
+   
+   font-size: 20px;
 }
 h1{
     font-size: 80px;
@@ -42,18 +30,24 @@ h1{
     padding-top: 10px;
     text-align: center;
     margin-bottom: 20px;
-/*     linear-gradient(to bottom, #001c4c, white);gradiente */
+
 }
 *{
     margin: 0;
 }
 p
 {
+
     margin: 10px;
     margin-left: 240px;
     margin-right: 240px;
     text-align: justify;
-}/*#2B4570*/
+}
+p.primer::first-letter{
+
+color:black;
+font-size: 150%;
+}
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #9ab7e7;
@@ -63,18 +57,19 @@ h2{
     padding-bottom: 10px;
     border-bottom: solid black 1px;
     border-top: solid black 1px;
+    margin-bottom: 10px;
 }
 
 ul.indice{
     padding-left: 50px;
     background-color: white;
     border: solid 2px lightblue;
-    padding: 10px 10px;
+    padding: 15px 15px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 20px;
     width: 150px;
-    margin-left: 850px;
+    margin-left: 1150px;
 }
 
 h3{
@@ -87,8 +82,8 @@ h3{
     border: solid black 1px;
 }
 img{
-    margin-left: 750px;
-    margin-right: 1000px;
+    margin-left: 1100px;
+    
     border: solid 2px lightblue;
     width: 300px;
 }
@@ -107,6 +102,11 @@ h3.oviedotitle{
 
 a:hover{
     color:red;
+    background-color:white; 
+}
+link:hover{
+    color: red;
+    background-color: yellow;
 }
 h1.gijon{
     background-image: url(/Imagen/images.jpg);
@@ -126,23 +126,38 @@ h1.laboral{
     background-size: cover; 
     padding-top: 70px;
     padding-bottom: 50px; 
-    border-bottom: solid #001c4c 15px;
+    border-bottom: solid #9ab7e7 15px;
 }
 img.laboral1{
     margin:0px;
     margin-left: 250px;
     float: left;
-    width: 300px;
+    width: 350px;
 }
 img.laboral2{
      margin:0px;
-     margin-left: 300px;
+     margin-left: 500px;
      float: left;
-    width: 250px;
+    width: 300px;
 }
 img.laboral3{
     margin:0px;
-    float: left;
-    margin-left: 400px; 
-    width: 250px;
+    float: left;    
+    margin-left: 600px; 
+    width: 300px;
+}
+img.imagenLaboral{
+    margin-left: 1100px;
+}
+li{
+    padding-bottom: 10px;
+}
+h3.UNED{
+    margin-right:1400px ;
+    margin-left: 240px;
+}
+footer{
+    padding-top: 200px;
+    color: #9ab7e7;
+    
 }
