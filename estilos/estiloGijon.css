@@ -69,7 +69,7 @@ ul.indice{
     margin-bottom: 20px;
     padding-left: 20px;
     width: 150px;
-    margin-left: 1150px;
+    margin-left: 875px;
 }
 
 h3{
@@ -82,7 +82,7 @@ h3{
     border: solid black 1px;
 }
 img{
-    margin-left: 1100px;
+    margin-left: 800px;
     
     border: solid 2px lightblue;
     width: 300px;
@@ -93,10 +93,6 @@ ul.resto{
 }
 
 table{
-    margin-left: 240px;
-}
-h3.oviedotitle{
-    margin-right:1400px ;
     margin-left: 240px;
 }
 
@@ -130,32 +126,38 @@ h1.laboral{
 }
 img.laboral1{
     margin:0px;
-    margin-left: 250px;
-    float: left;
+    margin-left: 200px;
+    
     width: 350px;
 }
 img.laboral2{
      margin:0px;
-     margin-left: 500px;
-     float: left;
+     margin-left: 350px;
+
     width: 300px;
+    
 }
 img.laboral3{
     margin:0px;
-    float: left;    
-    margin-left: 600px; 
+    margin-left: 350px;
+   
     width: 300px;
 }
 img.imagenLaboral{
-    margin-left: 1100px;
+    margin-left: 750px;
 }
 li{
     padding-bottom: 10px;
 }
 h3.UNED{
-    margin-right:1400px ;
+    margin-right:700px;
     margin-left: 240px;
 }
+h3.oviedotitle{
+    margin-right:800px;
+    margin-left: 240px;
+}
+
 footer{
     padding-top: 200px;
     color: #9ab7e7;
